@@ -1,0 +1,52 @@
+<resources>
+
+    <string name="app_name">Restaurant Search</string>
+    <string name="restaurant_image">Restaurant Image</string>
+    <!-- Error messages-->
+    <string name="detail_error_message">Favourite Restaurant data not available</string>
+
+
+    <string name="error_message">
+        An error has occurred. Please check internet connection and try again.
+    </string>
+    <!-- MasterListFragment-->
+    <string name="location_permission_denied">Location permissions denied,
+        please enable the permissions to use this app.
+    </string>
+    <string name="restaurantNameHint">Restaurant Name</string>
+    <string name="ratingHint">Rating</string>
+    <string name="votesHint">Votes</string>
+    <string name="restaurantAddressHint">Restaurant Address</string>
+    <string name="addressLabel">Address: </string>
+    <string name="ratingLabel">Rating:&#160;</string>
+    <string name="comma">,&#160;</string>
+    <string name="hyphen">&#160;-&#160;</string>
+
+    <!-- DetailFragment-->
+    <string name="cuisinesHint">Cuisines</string>
+    <string name="averageCostForTwoHint">Average Cost for two</string>
+    <string name="aggregateRatingHint">Aggregate Rating</string>
+    <string name="numberOfVotesHint">Number of Votes</string>
+    <string name="details">Details</string>
+    <string name="directions">Directions</string>
+    <string name="admob_Id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="appId">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="userRatingLabel">User Rating:&#160;</string>
+    <string name="votesLabel1">Votes:&#160;</string>
+    <string name="comma1">,</string>
+    <string name="cuisinesLabel">Cuisines:&#160;</string>
+    <string name="averageCostForTwoLabel">Average cost for two:&#160;</string>
+    <string name="noMoreDetailsToast">No more details found.</string>
+    <string name="googleMapsIntentURL">http://maps.google.com/maps?daddr=</string>
+    <string name="appwidget_text">Favourite Restaurants List</string>
+    <string name="empty_view_text">No favorite restaurants</string>
+    <string name="restaurant_detail_image">Detail image of the restaurant</string>
+    <string name="unknown_text">Unknown</string>
+    <string name="action_location">Sort on Current Location</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_favourite">Sort on Favourite</string>
+    <string name="favourite_marked">marked favourite by user</string>
+    <string name="mark_favorite">Mark favorite</string>
+    <string name="browse_restaurant_details">Browse Restaurant details</string>
+    <string name="map_direction_to_restaurant">Find map direction to restaurant</string>
+</resources>
