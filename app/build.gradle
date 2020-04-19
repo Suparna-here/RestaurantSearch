@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'com.google.gms.google-services'
 // Create a variable called keystorePropertiesFile, and initialize it to your
 // keystore.properties file, in the rootProject folder.
 def keystorePropertiesFile = rootProject.file("keystore.properties")
@@ -49,8 +49,8 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.room:room-runtime:2.2.4'
-    annotationProcessor 'androidx.room:room-compiler:2.2.4'
+    implementation 'androidx.room:room-runtime:2.2.5'
+    annotationProcessor 'androidx.room:room-compiler:2.2.5'
     implementation 'androidx.lifecycle:lifecycle-runtime:2.2.0'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
     implementation "androidx.lifecycle:lifecycle-common-java8:2.2.0"
@@ -58,13 +58,13 @@ dependencies {
     implementation 'com.google.android.gms:play-services-location:17.0.0'
 
     // Mobile Ads SDK
-    implementation 'com.google.firebase:firebase-ads:19.0.0'
+    implementation 'com.google.firebase:firebase-ads:19.0.1'
 
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.browser:browser:1.2.0'
     implementation 'androidx.media:media:1.1.0'
-    implementation 'androidx.exifinterface:exifinterface:1.1.0'
+    implementation 'androidx.exifinterface:exifinterface:1.2.0'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'com.google.android.material:material:1.1.0'
@@ -77,6 +77,11 @@ dependencies {
     // Glide v4 uses this new annotation processor -- see https://bumptech.github.io/glide/doc/generatedapi.html
     annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
 
+    //AdMob
+    implementation 'com.google.android.gms:play-services-ads:19.0.1'
+
+    //Analytics
+    implementation 'com.google.firebase:firebase-analytics:17.2.2'
     testImplementation 'junit:junit:4.13'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'

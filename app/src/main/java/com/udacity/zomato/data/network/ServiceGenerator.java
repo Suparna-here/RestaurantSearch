@@ -23,7 +23,7 @@ public class ServiceGenerator {
     public static final String YOUTUBE_URL= "http://img.youtube.com/vi/";
     public static final String ORDER_TOPRATED = "vote_average.desc";
 
-    public static final boolean LOCAL_LOGD = true;
+    public static final boolean LOCAL_LOGD = false;
 
     private static Retrofit.Builder builder =
             new Retrofit.Builder()

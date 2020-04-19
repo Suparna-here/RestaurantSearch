@@ -48,10 +48,6 @@ public class DetailActivity extends AppCompatActivity {
         // Only create new fragments when there is no previously saved state
         if (savedInstanceState == null) {
             Bundle bundleFragment = new Bundle();
-      /*      ArrayList<Restaurant> stepList = new ArrayList<Restaurant>();
-            stepList.add(step);
-            if (ServiceGenerator.LOCAL_LOGD)
-                Log.d(LOG_TAG, "su: itemClickListener " + step.getStep_Id());*/
             bundleFragment.putBoolean(ServiceGenerator.EXTRA_TWO_PANE, isTwoPane);
             bundleFragment.putParcelableArrayList(ServiceGenerator.EXTRA_DATA, restaurantArrayList);
             bundleFragment.putString(ServiceGenerator.EXTRA_SORT_BY, sort_by);
